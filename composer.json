@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "AddressBook\\": "AddressBook"
+    }
+
+  },
+
+  "require": {
+    "slim/slim": "^2.6",
+    "phpunit/phpunit": "^4.8",
+    "phpunit/dbunit": "^1.4"
+  }
+
+}

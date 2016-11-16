@@ -1,0 +1,20 @@
+/*========================
+ 	General Styles
+ */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/img1.jpg');
+    background-size: cover;
+    color: #666;
+    -moz-animation-name: fadeElem;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
